@@ -1,0 +1,13 @@
+<view class="index" >
+    <view class="index-hd">测试文件</view>
+    <view class="index-bd">
+        <view class="index-list">
+            <view class="index-item">测试文件1</view>
+            <view class="index-item">测试文件2</view>
+            <view class="index-item">测试文件3</view>
+            <view class="index-item">测试文件4</view>
+            <view class="index-item">测试文件5</view>
+        </view>
+    </view>
+    <view class="index-ft">测试文件</view>
+</view>

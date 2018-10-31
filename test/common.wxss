@@ -1,0 +1,38 @@
+.index {
+    background-color: #eee;
+}
+.index-hd {
+    width: 100rpx;
+    height: 100rpx;
+}
+.index-bd {
+    width: 100rpx;
+    height: 100rpx;
+}
+.index-list {
+    width: 100rpx;
+    height: 100rpx;
+}
+.index-item {
+    width: 100rpx;
+    height: 100rpx;
+}
+.detail {
+    background-color: #eee;
+}
+.detail-hd {
+    width: 100rpx;
+    height: 100rpx;
+}
+.detail-bd {
+    width: 100rpx;
+    height: 100rpx;
+}
+.detail-list {
+    width: 100rpx;
+    height: 100rpx;
+}
+.detail-item {
+    width: 100rpx;
+    height: 100rpx;
+}
