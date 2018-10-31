@@ -2,6 +2,7 @@
  * 检测类名在项目文件中的使用情况
  * @author wumengmeng
  * @description 了解通用css文件中类名的使用情况，以便高效的做优化处理
+ * @git地址  https://github.com/wmmwumengmeng/classCountTimes
  */
 // 数组对象参数说明
 // let conObj = [{
@@ -42,7 +43,6 @@ let classCountTimes = {
         // 导出内容
         this.exportCon(this.data.conObj);
         // 导出文件
-        //this.exportFile(this.data.exportConData);
     },
     /**
      * 初始化数据
@@ -50,7 +50,6 @@ let classCountTimes = {
      * @param {获取到搜索类名结果后的回调方法} callbackfn 
      */
     setData(params, callbackfn) {
-        // this.data.callbackfn = callbackfn;
         this.default = {
             floderUrl: params.floderUrl || '', // 遍历文件包路径
             fileNameList: params.fileNameList || [], // 检测文件后缀类型
