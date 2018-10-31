@@ -3,11 +3,11 @@ classCountTimes.init({
     floderUrl: './test',
     fileNameList: ['wxml'],
     cssName: './test/common.wxss',
-    exportFileName: './test/exportClassUse.js'
+    exportFileName: './dist/exportClassUse.js'
 }, (data) => {
     let result = '';
     // 本地路径前缀，导出时去除，留下项目路径即可
-    let localUrl = 'E:/study/doverjs-master/classCountTimes/';  
+    let localUrl = 'E:/study/doverjs-master/classCountTimes/classCountTimes/';  
     for (let i = 0; i < data.length; i++) {
         let url = '';
         for (let j = 0; j < data[i].file.length; j++) {
