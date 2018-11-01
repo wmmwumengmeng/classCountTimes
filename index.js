@@ -1,4 +1,4 @@
-const classCountTimes = require('./util.classCountTimes.js');
+const classCountTimes = require('class-count');
 classCountTimes.init({
     floderUrl: './test',
     fileNameList: ['wxml'],
