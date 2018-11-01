@@ -1,0 +1,22 @@
+{
+  "name": "class-count",
+  "version": "1.0.6",
+  "description": "统计类名使用次数 class-count",
+  "main": "util.classCountTimes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wmmwumengmeng/classCountTimes.git"
+  },
+  "keywords": [
+    "类名使用次数统计 class-count"
+  ],
+  "author": "wumengmeng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wmmwumengmeng/classCountTimes/issues"
+  },
+  "homepage": "https://github.com/wmmwumengmeng/classCountTimes#readme"
+}

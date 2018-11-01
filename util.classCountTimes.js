@@ -1,8 +1,12 @@
+'use strict'
 /**
- * 检测类名在项目文件中的使用情况
+ * 检测统计类名在项目文件中的使用次数情况
  * @author wumengmeng
  * @description 了解通用css文件中类名的使用情况，以便高效的做优化处理
  * @git地址  https://github.com/wmmwumengmeng/classCountTimes
+ * npm地址   https://www.npmjs.com/package/class-count
+ * npm包名   class-count
+ * npm install class-count
  */
 // 数组对象参数说明
 // let conObj = [{
