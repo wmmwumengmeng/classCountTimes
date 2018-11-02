@@ -2,8 +2,8 @@ const classCountTimes = require('class-count');
 classCountTimes.init({
     floderUrl: './test',
     fileNameList: ['wxml'],
-    cssName: './test/common.wxss',
-    exportFileName: './dist/exportClassUse.js'
+    cssName: './test/common.wxss', // 必填项，检测的类名文件
+    exportFileName: './dist/exportClassCountTimes.js'
 }, (data) => {
     let result = '';
     // 本地路径前缀，导出时去除，留下项目路径即可
